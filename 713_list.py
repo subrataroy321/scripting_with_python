@@ -31,7 +31,7 @@ squad_713 = [
 
 for i in range(len(squad_713)):
     each_file = open(f"{squad_713[i]}.txt", "w")
-    each_file.write(f'\n{squad_713[i]}')
-    #print(each_file.read())
+    each_file.write(f'{squad_713[i]}\n')
+    #print(each_file.readline())
     each_file.close()
 
